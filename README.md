@@ -2,7 +2,7 @@
 This project will no longer be maintained by Intel.  
 Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases, or updates, to this project.  
 Intel no longer accepts patches to this project.  
- If you have an ongoing need to use this project, are interested in independently developing it, or would like to maintain patches for the open source software community, please create your own fork of this project.  
+## I have created my own fork of this project to address an open issue. PRs and more issues are welcome - but expect a long wait time as this is a massive project and I'm just trying to preserve a good AO implementation rather than maintain it.
   
 # XeGTAO
 
