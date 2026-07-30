@@ -430,11 +430,11 @@ uint bhos_laine_karras_permutation(uint x, uint seed)
     x ^= x * 0xc7afe638u;
     x ^= x * 0x8d22f6e6u;
 #else // this is from https://psychopath.io/post/2021_01_30_building_a_better_lk_hash
-    x *= 0x788aeeed;
-    x ^= x * 0x41506a02;
-    x += seed;
-    x *= seed | 1;
-    x ^= x * 0x7483dc64;
+	x ^= x * 0x3d20adea
+	x += seed
+	x *= (seed >> 16) | 1
+	x ^= x * 0x05526c56
+	x ^= x * 0x53a22864
 #endif
     return x;
 }
